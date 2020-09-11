@@ -3,7 +3,6 @@ import "./todoapp.css";
 
 export default function TodoApp() {
   const [task, setTask] = useState("");
-  const [taskDone, setTaskDone] = useState(false);
 
   const [tasklist, setTaskList] = useState([]);
 
